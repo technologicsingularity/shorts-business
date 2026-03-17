@@ -1,0 +1,193 @@
+{
+  "positions": [
+    {
+      "id": 1,
+      "market_slug": "will-trumps-approval-rating-be-between-40pt5-and-40pt9-on-march-20-2026",
+      "market_name": "Trump Approval 40.5-40.9 March 20",
+      "category": "politics",
+      "bet_type": "YES",
+      "entry_price": 0.439,
+      "current_price": 0.439,
+      "size_percent": 3.0,
+      "amount": 300.0,
+      "thesis": "Moderate odds (43.9%), approval likely in this range based on recent stability",
+      "strategy": "value",
+      "opened_at": "2026-03-16T20:13:00.598223",
+      "status": "open",
+      "last_price_update": "2026-03-17T09:08:40.319347",
+      "market_data": {
+        "volume": "4272.865650999996",
+        "liquidity": "3965.08852",
+        "spread": 0.008,
+        "updated_at": "2026-03-17T13:05:31.363426Z"
+      }
+    },
+    {
+      "id": 2,
+      "market_slug": "will-the-nashville-predators-win-the-2026-nhl-stanley-cup",
+      "market_name": "Nashville Predators Win 2026 Stanley Cup",
+      "category": "sports",
+      "bet_type": "YES",
+      "entry_price": 0.003,
+      "current_price": 0.0025,
+      "size_percent": 2.0,
+      "amount": 194.0,
+      "thesis": "Fade extreme odds - 0.3% underpriced longshot with playoff potential",
+      "strategy": "fade",
+      "opened_at": "2026-03-16T20:43:09.745168",
+      "status": "open",
+      "last_price_update": "2026-03-17T09:08:45.347458",
+      "market_data": {
+        "volume": "1090635.955086003",
+        "liquidity": "127297.03583",
+        "spread": 0.001,
+        "updated_at": "2026-03-17T13:05:39.234254Z"
+      }
+    },
+    {
+      "id": 3,
+      "market_slug": "will-the-nashville-predators-win-the-2026-nhl-stanley-cup",
+      "market_name": "Nashville Predators Win 2026 Stanley Cup",
+      "category": "sports",
+      "bet_type": "YES",
+      "entry_price": 0.003,
+      "current_price": 0.0025,
+      "size_percent": 2.0,
+      "amount": 190.12,
+      "thesis": "Extreme odds - 0.3% is overpricing impossibility. NHL parity means any team has ~3-5% chance.",
+      "strategy": "fade",
+      "opened_at": "2026-03-16T20:51:29.629079",
+      "status": "open",
+      "last_price_update": "2026-03-17T09:08:50.374354",
+      "market_data": {
+        "volume": "1090635.955086003",
+        "liquidity": "127297.03583",
+        "spread": 0.001,
+        "updated_at": "2026-03-17T13:05:39.234254Z"
+      }
+    },
+    {
+      "id": 4,
+      "market_slug": "will-ukraine-recognize-russian-sovereignty-over-its-territory-by-december-31-2026",
+      "market_name": "Ukraine Recognize Russian Sovereignty by Dec 2026",
+      "category": "politics",
+      "bet_type": "YES",
+      "entry_price": 0.135,
+      "current_price": 0.128,
+      "size_percent": 2.0,
+      "amount": 186.3176,
+      "thesis": "13.5% odds too low. Negotiations likely by end of 2026. High reward if peace deal happens.",
+      "strategy": "longshot",
+      "opened_at": "2026-03-16T20:51:29.693487",
+      "status": "open"
+    },
+    {
+      "id": 5,
+      "market_slug": "starmer-out-by-december-31-2026",
+      "market_name": "Starmer Out by Dec 2026",
+      "category": "politics",
+      "bet_type": "YES",
+      "entry_price": 0.685,
+      "current_price": 0.712,
+      "size_percent": 3.0,
+      "amount": 273.886872,
+      "thesis": "68.5% odds - Labour struggling, UK economy weak. High probability of leadership change or election loss.",
+      "strategy": "high-probability",
+      "opened_at": "2026-03-16T20:51:29.756207",
+      "status": "open"
+    }
+  ],
+  "closed": [],
+  "bankroll": 8855.675528,
+  "starting_bankroll": 10000.0,
+  "history": [
+    {
+      "date": "2026-03-16T20:13:00.598223",
+      "bankroll": 9700.0,
+      "pnl": 0,
+      "open_positions": 1,
+      "total_positions": 1
+    },
+    {
+      "date": "2026-03-16T20:43:09.745168",
+      "bankroll": 9506.0,
+      "pnl": 0,
+      "open_positions": 2,
+      "total_positions": 2
+    },
+    {
+      "date": "2026-03-16T20:51:29.629079",
+      "bankroll": 9315.88,
+      "pnl": 0,
+      "open_positions": 3,
+      "total_positions": 3
+    },
+    {
+      "date": "2026-03-16T20:51:29.693487",
+      "bankroll": 9129.5624,
+      "pnl": 0,
+      "open_positions": 4,
+      "total_positions": 4
+    },
+    {
+      "date": "2026-03-16T20:51:29.756207",
+      "bankroll": 8855.675528,
+      "pnl": 0,
+      "open_positions": 5,
+      "total_positions": 5
+    }
+  ],
+  "price_history": {
+    "1": [
+      {
+        "timestamp": "2026-03-17T09:05:55.569392",
+        "price": 0.439,
+        "entry_price": 0.439
+      },
+      {
+        "timestamp": "2026-03-17T09:07:35.183525",
+        "price": 0.439,
+        "entry_price": 0.439
+      },
+      {
+        "timestamp": "2026-03-17T09:08:40.319364",
+        "price": 0.439,
+        "entry_price": 0.439
+      }
+    ],
+    "2": [
+      {
+        "timestamp": "2026-03-17T09:06:15.703576",
+        "price": 0.0025,
+        "entry_price": 0.003
+      },
+      {
+        "timestamp": "2026-03-17T09:07:40.209931",
+        "price": 0.0025,
+        "entry_price": 0.003
+      },
+      {
+        "timestamp": "2026-03-17T09:08:45.347477",
+        "price": 0.0025,
+        "entry_price": 0.003
+      }
+    ],
+    "3": [
+      {
+        "timestamp": "2026-03-17T09:06:35.736319",
+        "price": 0.0025,
+        "entry_price": 0.003
+      },
+      {
+        "timestamp": "2026-03-17T09:07:45.238735",
+        "price": 0.0025,
+        "entry_price": 0.003
+      },
+      {
+        "timestamp": "2026-03-17T09:08:50.374368",
+        "price": 0.0025,
+        "entry_price": 0.003
+      }
+    ]
+  }
+}
