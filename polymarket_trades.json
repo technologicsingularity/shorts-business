@@ -7,19 +7,19 @@
       "category": "politics",
       "bet_type": "YES",
       "entry_price": 0.439,
-      "current_price": 0.3445,
+      "current_price": 0.306,
       "size_percent": 3.0,
       "amount": 300.0,
       "thesis": "Moderate odds (43.9%), approval likely in this range based on recent stability",
       "strategy": "value",
       "opened_at": "2026-03-16T20:13:00.598223",
       "status": "open",
-      "last_price_update": "2026-03-18T12:02:40.784352",
+      "last_price_update": "2026-03-18T16:02:52.109297",
       "market_data": {
-        "volume": "7424.233527999994",
-        "liquidity": "2640.10361",
-        "spread": 0.007,
-        "updated_at": "2026-03-18T15:58:05.033058Z"
+        "volume": "7934.707157999994",
+        "liquidity": "3142.8311",
+        "spread": 0.036,
+        "updated_at": "2026-03-18T19:59:12.746435Z"
       }
     },
     {
@@ -36,12 +36,12 @@
       "strategy": "fade",
       "opened_at": "2026-03-16T20:43:09.745168",
       "status": "open",
-      "last_price_update": "2026-03-18T12:02:45.830037",
+      "last_price_update": "2026-03-18T16:02:57.167285",
       "market_data": {
-        "volume": "1183951.773071001",
-        "liquidity": "136320.81025",
+        "volume": "1191442.283072001",
+        "liquidity": "133076.01242",
         "spread": 0.002,
-        "updated_at": "2026-03-18T15:58:21.416862Z"
+        "updated_at": "2026-03-18T19:59:24.945285Z"
       }
     },
     {
@@ -58,12 +58,12 @@
       "strategy": "fade",
       "opened_at": "2026-03-16T20:51:29.629079",
       "status": "open",
-      "last_price_update": "2026-03-18T12:02:50.863701",
+      "last_price_update": "2026-03-18T16:03:02.201027",
       "market_data": {
-        "volume": "1183951.773071001",
-        "liquidity": "136320.81025",
+        "volume": "1191442.283072001",
+        "liquidity": "133076.01242",
         "spread": 0.002,
-        "updated_at": "2026-03-18T15:58:21.416862Z"
+        "updated_at": "2026-03-18T19:59:24.945285Z"
       }
     },
     {
@@ -103,19 +103,19 @@
       "category": "sports",
       "bet_type": "YES",
       "entry_price": 0.095,
-      "current_price": 0.0945,
+      "current_price": 0.0835,
       "size_percent": 2.5,
       "amount": 221.3918882,
       "thesis": "Fade the Extreme: Market overpricing certainty at 90.5% NO. Stars are 9.5% but legitimate contender. Value in long shots when odds >90%.",
       "strategy": "fade",
       "opened_at": "2026-03-18T09:10:44.100408",
       "status": "open",
-      "last_price_update": "2026-03-18T12:03:06.199092",
+      "last_price_update": "2026-03-18T16:03:17.554898",
       "market_data": {
-        "volume": "710825.6770769983",
-        "liquidity": "75899.17055",
-        "spread": 0.005,
-        "updated_at": "2026-03-18T15:58:00.618391Z"
+        "volume": "724053.0958629982",
+        "liquidity": "78228.38839",
+        "spread": 0.007,
+        "updated_at": "2026-03-18T19:59:09.577368Z"
       }
     },
     {
@@ -125,19 +125,19 @@
       "category": "sports",
       "bet_type": "YES",
       "entry_price": 0.03,
-      "current_price": 0.035,
+      "current_price": 0.024,
       "size_percent": 2.0,
       "amount": 172.685672796,
       "thesis": "Fade the Extreme: 97% NO pricing is certainty overreach. 3% for YES offers convexity. NHL parity means any playoff team has shot.",
       "strategy": "fade",
       "opened_at": "2026-03-18T09:10:44.296331",
       "status": "open",
-      "last_price_update": "2026-03-18T12:03:11.243904",
+      "last_price_update": "2026-03-18T16:03:22.601507",
       "market_data": {
-        "volume": "572669.2622759974",
-        "liquidity": "89334.56543",
-        "spread": 0.004,
-        "updated_at": "2026-03-18T15:58:18.389799Z"
+        "volume": "574628.6622759975",
+        "liquidity": "89500.85154",
+        "spread": 0.002,
+        "updated_at": "2026-03-18T19:59:22.624695Z"
       }
     },
     {
@@ -147,19 +147,19 @@
       "category": "sports",
       "bet_type": "YES",
       "entry_price": 0.021,
-      "current_price": 0.0225,
+      "current_price": 0.022,
       "size_percent": 2.5,
       "amount": 211.5399491751,
       "thesis": "Fade the Extreme: 97.9% NO implies Rockets have no chance. Young talented roster could surprise. 2.1% is mispriced.",
       "strategy": "fade",
       "opened_at": "2026-03-18T09:10:44.510087",
       "status": "open",
-      "last_price_update": "2026-03-18T12:03:16.293946",
+      "last_price_update": "2026-03-18T16:03:27.650064",
       "market_data": {
-        "volume": "3237243.2881119745",
-        "liquidity": "262326.57263",
-        "spread": 0.001,
-        "updated_at": "2026-03-18T15:58:01.314441Z"
+        "volume": "3240177.646370974",
+        "liquidity": "265477.62418",
+        "spread": 0.002,
+        "updated_at": "2026-03-18T19:59:10.046226Z"
       }
     }
   ],
@@ -275,6 +275,16 @@
         "timestamp": "2026-03-18T12:02:40.784378",
         "price": 0.3445,
         "entry_price": 0.439
+      },
+      {
+        "timestamp": "2026-03-18T15:44:52.247598",
+        "price": 0.3015,
+        "entry_price": 0.439
+      },
+      {
+        "timestamp": "2026-03-18T16:02:52.109317",
+        "price": 0.306,
+        "entry_price": 0.439
       }
     ],
     "2": [
@@ -325,6 +335,16 @@
       },
       {
         "timestamp": "2026-03-18T12:02:45.830066",
+        "price": 0.002,
+        "entry_price": 0.003
+      },
+      {
+        "timestamp": "2026-03-18T15:44:57.375132",
+        "price": 0.002,
+        "entry_price": 0.003
+      },
+      {
+        "timestamp": "2026-03-18T16:02:57.167304",
         "price": 0.002,
         "entry_price": 0.003
       }
@@ -379,12 +399,32 @@
         "timestamp": "2026-03-18T12:02:50.863728",
         "price": 0.002,
         "entry_price": 0.003
+      },
+      {
+        "timestamp": "2026-03-18T15:45:02.423038",
+        "price": 0.002,
+        "entry_price": 0.003
+      },
+      {
+        "timestamp": "2026-03-18T16:03:02.201045",
+        "price": 0.002,
+        "entry_price": 0.003
       }
     ],
     "6": [
       {
         "timestamp": "2026-03-18T12:03:06.199108",
         "price": 0.0945,
+        "entry_price": 0.095
+      },
+      {
+        "timestamp": "2026-03-18T15:45:17.756798",
+        "price": 0.089,
+        "entry_price": 0.095
+      },
+      {
+        "timestamp": "2026-03-18T16:03:17.554916",
+        "price": 0.0835,
         "entry_price": 0.095
       }
     ],
@@ -393,12 +433,32 @@
         "timestamp": "2026-03-18T12:03:11.243920",
         "price": 0.035,
         "entry_price": 0.03
+      },
+      {
+        "timestamp": "2026-03-18T15:45:22.800010",
+        "price": 0.0225,
+        "entry_price": 0.03
+      },
+      {
+        "timestamp": "2026-03-18T16:03:22.601526",
+        "price": 0.024,
+        "entry_price": 0.03
       }
     ],
     "8": [
       {
         "timestamp": "2026-03-18T12:03:16.293960",
         "price": 0.0225,
+        "entry_price": 0.021
+      },
+      {
+        "timestamp": "2026-03-18T15:45:27.847552",
+        "price": 0.022,
+        "entry_price": 0.021
+      },
+      {
+        "timestamp": "2026-03-18T16:03:27.650082",
+        "price": 0.022,
         "entry_price": 0.021
       }
     ]
