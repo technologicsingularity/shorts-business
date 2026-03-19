@@ -7,19 +7,19 @@
       "category": "politics",
       "bet_type": "YES",
       "entry_price": 0.439,
-      "current_price": 0.225,
+      "current_price": 0.2075,
       "size_percent": 3.0,
       "amount": 300.0,
       "thesis": "Moderate odds (43.9%), approval likely in this range based on recent stability",
       "strategy": "value",
       "opened_at": "2026-03-16T20:13:00.598223",
       "status": "open",
-      "last_price_update": "2026-03-19T08:02:52.089052",
+      "last_price_update": "2026-03-19T12:02:38.927368",
       "market_data": {
-        "volume": "8643.853545999993",
-        "liquidity": "3001.56891",
-        "spread": 0.018,
-        "updated_at": "2026-03-19T11:58:08.75982Z"
+        "volume": "9369.517684999995",
+        "liquidity": "1546.70494",
+        "spread": 0.091,
+        "updated_at": "2026-03-19T15:59:17.894757Z"
       }
     },
     {
@@ -36,12 +36,12 @@
       "strategy": "fade",
       "opened_at": "2026-03-16T20:43:09.745168",
       "status": "open",
-      "last_price_update": "2026-03-19T08:02:57.137807",
+      "last_price_update": "2026-03-19T12:02:43.986462",
       "market_data": {
-        "volume": "1290544.7949550007",
-        "liquidity": "146532.73961",
+        "volume": "1339061.362059001",
+        "liquidity": "131568.55505",
         "spread": 0.001,
-        "updated_at": "2026-03-19T11:58:27.16821Z"
+        "updated_at": "2026-03-19T15:59:38.68937Z"
       }
     },
     {
@@ -58,12 +58,12 @@
       "strategy": "fade",
       "opened_at": "2026-03-16T20:51:29.629079",
       "status": "open",
-      "last_price_update": "2026-03-19T08:03:02.166778",
+      "last_price_update": "2026-03-19T12:02:49.015498",
       "market_data": {
-        "volume": "1290544.7949550007",
-        "liquidity": "146532.73961",
+        "volume": "1339061.362059001",
+        "liquidity": "131568.55505",
         "spread": 0.001,
-        "updated_at": "2026-03-19T11:58:27.16821Z"
+        "updated_at": "2026-03-19T15:59:38.68937Z"
       }
     },
     {
@@ -110,12 +110,12 @@
       "strategy": "fade",
       "opened_at": "2026-03-18T09:10:44.100408",
       "status": "open",
-      "last_price_update": "2026-03-19T08:03:17.492006",
+      "last_price_update": "2026-03-19T12:03:04.364001",
       "market_data": {
-        "volume": "772934.440612998",
-        "liquidity": "78080.64531",
-        "spread": 0.001,
-        "updated_at": "2026-03-19T11:58:12.757412Z"
+        "volume": "776996.2892309981",
+        "liquidity": "75824.9295",
+        "spread": 0.003,
+        "updated_at": "2026-03-19T16:01:54.742878Z"
       }
     },
     {
@@ -125,19 +125,19 @@
       "category": "sports",
       "bet_type": "YES",
       "entry_price": 0.03,
-      "current_price": 0.034,
+      "current_price": 0.0335,
       "size_percent": 2.0,
       "amount": 172.685672796,
       "thesis": "Fade the Extreme: 97% NO pricing is certainty overreach. 3% for YES offers convexity. NHL parity means any playoff team has shot.",
       "strategy": "fade",
       "opened_at": "2026-03-18T09:10:44.296331",
       "status": "open",
-      "last_price_update": "2026-03-19T08:03:22.536692",
+      "last_price_update": "2026-03-19T12:03:09.411285",
       "market_data": {
-        "volume": "593806.5764169988",
-        "liquidity": "88070.69252",
-        "spread": 0.002,
-        "updated_at": "2026-03-19T11:58:24.288603Z"
+        "volume": "595238.5264169989",
+        "liquidity": "81522.98558",
+        "spread": 0.005,
+        "updated_at": "2026-03-19T16:02:01.028032Z"
       }
     },
     {
@@ -147,24 +147,54 @@
       "category": "sports",
       "bet_type": "YES",
       "entry_price": 0.021,
-      "current_price": 0.0225,
+      "current_price": 0.0215,
       "size_percent": 2.5,
       "amount": 211.5399491751,
       "thesis": "Fade the Extreme: 97.9% NO implies Rockets have no chance. Young talented roster could surprise. 2.1% is mispriced.",
       "strategy": "fade",
       "opened_at": "2026-03-18T09:10:44.510087",
       "status": "open",
-      "last_price_update": "2026-03-19T08:03:27.613303",
+      "last_price_update": "2026-03-19T12:03:14.458958",
       "market_data": {
-        "volume": "3276213.6937489747",
-        "liquidity": "261238.80315",
+        "volume": "3282138.607208975",
+        "liquidity": "265828.36774",
         "spread": 0.001,
-        "updated_at": "2026-03-19T11:58:06.794492Z"
+        "updated_at": "2026-03-19T15:59:14.791453Z"
       }
+    },
+    {
+      "id": 9,
+      "market_slug": "2026-nhl-stanley-cup-champion",
+      "market_name": "Florida Panthers Win 2026 Stanley Cup",
+      "category": "sports",
+      "bet_type": "YES",
+      "entry_price": 0.082,
+      "current_price": 0.082,
+      "size_percent": 3.0,
+      "amount": 247.501740534867,
+      "thesis": "Fade the Extreme: 91.8% NO overprices certainty. Panthers are defending champs with strong roster. 8.2% offers value.",
+      "strategy": "fade",
+      "opened_at": "2026-03-19T09:13:11.113870",
+      "status": "open"
+    },
+    {
+      "id": 10,
+      "market_slug": "will-elon-musk-be-twitters-largest-shareholder-by-june-30-2026",
+      "market_name": "Elon Musk Twitter Largest Shareholder by June 2026",
+      "category": "crypto",
+      "bet_type": "YES",
+      "entry_price": 0.031,
+      "current_price": 0.031,
+      "size_percent": 2.5,
+      "amount": 200.06390693235085,
+      "thesis": "Fade the Extreme: 96.9% NO overprices certainty. Musk has history of surprise moves with Twitter/X. 3.1% offers convexity if he increases stake.",
+      "strategy": "fade",
+      "opened_at": "2026-03-19T09:13:18.129321",
+      "status": "open"
     }
   ],
   "closed": [],
-  "bankroll": 8250.0580178289,
+  "bankroll": 7802.492370361682,
   "starting_bankroll": 10000.0,
   "history": [
     {
@@ -222,6 +252,20 @@
       "pnl": 0,
       "open_positions": 8,
       "total_positions": 8
+    },
+    {
+      "date": "2026-03-19T09:13:11.113887",
+      "bankroll": 8002.556277294033,
+      "pnl": 0,
+      "open_positions": 9,
+      "total_positions": 9
+    },
+    {
+      "date": "2026-03-19T09:13:18.129337",
+      "bankroll": 7802.492370361682,
+      "pnl": 0,
+      "open_positions": 10,
+      "total_positions": 10
     }
   ],
   "price_history": {
@@ -310,6 +354,11 @@
         "timestamp": "2026-03-19T08:02:52.089071",
         "price": 0.225,
         "entry_price": 0.439
+      },
+      {
+        "timestamp": "2026-03-19T12:02:38.927389",
+        "price": 0.2075,
+        "entry_price": 0.439
       }
     ],
     "2": [
@@ -395,6 +444,11 @@
       },
       {
         "timestamp": "2026-03-19T08:02:57.137827",
+        "price": 0.0015,
+        "entry_price": 0.003
+      },
+      {
+        "timestamp": "2026-03-19T12:02:43.986482",
         "price": 0.0015,
         "entry_price": 0.003
       }
@@ -484,6 +538,11 @@
         "timestamp": "2026-03-19T08:03:02.166797",
         "price": 0.0015,
         "entry_price": 0.003
+      },
+      {
+        "timestamp": "2026-03-19T12:02:49.015516",
+        "price": 0.0015,
+        "entry_price": 0.003
       }
     ],
     "6": [
@@ -524,6 +583,11 @@
       },
       {
         "timestamp": "2026-03-19T08:03:17.492025",
+        "price": 0.0885,
+        "entry_price": 0.095
+      },
+      {
+        "timestamp": "2026-03-19T12:03:04.364028",
         "price": 0.0885,
         "entry_price": 0.095
       }
@@ -568,6 +632,11 @@
         "timestamp": "2026-03-19T08:03:22.536708",
         "price": 0.034,
         "entry_price": 0.03
+      },
+      {
+        "timestamp": "2026-03-19T12:03:09.411307",
+        "price": 0.0335,
+        "entry_price": 0.03
       }
     ],
     "8": [
@@ -609,6 +678,11 @@
       {
         "timestamp": "2026-03-19T08:03:27.613322",
         "price": 0.0225,
+        "entry_price": 0.021
+      },
+      {
+        "timestamp": "2026-03-19T12:03:14.458975",
+        "price": 0.0215,
         "entry_price": 0.021
       }
     ]
