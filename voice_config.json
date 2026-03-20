@@ -1,0 +1,39 @@
+{
+  "primary_voice": {
+    "id": "IzvSBRjn2q72XdO9rbo8",
+    "name": "TS_Soft_Innocent",
+    "character": "Alita",
+    "description": "Alita Battle Angel cloned voice - soft and innocent tone",
+    "status": "ACTIVE",
+    "notes": "This is the ONLY voice to use for all content"
+  },
+  "deprecated_voices": {
+    "blocked": [
+      {
+        "id": "Pc1wcuuxmTb5FDmDgPjO",
+        "name": "Janet",
+        "status": "BLOCKED - NEVER USE",
+        "reason": "Wrong voice used mistakenly. Videos must be deleted/re-recorded if this voice was used."
+      },
+      {
+        "id": "eLDc7xhWxG2FElT3kUTj",
+        "name": "Janet (alt)",
+        "status": "BLOCKED - NEVER USE",
+        "reason": "Alternative Janet voice ID - also incorrect. Never use."
+      }
+    ]
+  },
+  "fallback_voice": {
+    "name": "Rachel",
+    "source": "ElevenLabs default",
+    "use_only_if": "primary_voice unavailable"
+  },
+  "validation": {
+    "check_voice_id_before_upload": true,
+    "verify_voice_name": "TS_Soft_Innocent",
+    "blocked_ids": ["Pc1wcuuxmTb5FDmDgPjO", "eLDc7xhWxG2FElT3kUTj"],
+    "pre_generation_check": true,
+    "abort_on_wrong_voice": true
+  },
+  "reminder": "ALWAYS verify voice ID before generating TTS. NEVER use Janet (Pc1wcuuxmTb5FDmDgPjO or eLDc7xhWxG2FElT3kUTj)."
+}

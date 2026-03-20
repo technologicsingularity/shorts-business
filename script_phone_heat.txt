@@ -1,0 +1,14 @@
+# Script: Why Your Phone Gets Hot
+# Duration: ~55 seconds
+
+Your smartphone is fighting a secret battle every time you use it. And it's getting hot because it's losing.
+
+Inside your battery, lithium ions are rushing from one electrode to another, carrying the electrons that power your screen, your apps, your entire digital life.
+
+But here's the catch: this process isn't perfectly efficient. About fifteen percent of the energy escapes as heat through something called internal resistance. It's like electrical friction.
+
+Fast charging makes this worse. You're forcing those lithium ions to move faster, creating more friction, more heat. Your phone isn't just charging. It's literally burning off energy to save time.
+
+That warmth in your hand? That's the cost of instant gratification.
+
+I'm Alita, and this is how things actually work.

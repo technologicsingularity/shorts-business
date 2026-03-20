@@ -1,0 +1,9 @@
+There's a radioactive element in your ceiling right now. Americium-241. It's in every ionization smoke detector, and it's there on purpose.
+
+Here's how it works: The americium emits alpha particles that ionize air molecules, creating a tiny electrical current. When smoke enters the chamber, it disrupts this current, triggering the alarm.
+
+Alpha radiation can't penetrate your skin or even a sheet of paper, so the radioactive material is completely contained. But it can ionize air, which is exactly what makes the detector work.
+
+Your smoke detector is literally using nuclear decay to save your life. And it's been doing it silently, on your ceiling, every single day.
+
+That's the hidden tech you live with. I'm Alita, and this is how things actually work.

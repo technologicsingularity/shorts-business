@@ -1,0 +1,167 @@
+{
+  "name": "Alita Model Router",
+  "description": "Task-based model routing system - cheap by default, smart when needed",
+  "version": "1.0.0",
+  "routing_strategy": "tier_based",
+  
+  "tiers": {
+    "L1_MINIMAL": {
+      "name": "Free/Lowest Cost",
+      "cost_per_1m_tokens": "$0.00 - $0.15",
+      "models": [
+        {
+          "id": "openrouter/free",
+          "provider": "openrouter",
+          "use_for": "Default fallback - auto-selects best free model",
+          "priority": 1
+        },
+        {
+          "id": "nvidia/nemotron-3-super-120b-a12b:free",
+          "provider": "nvidia",
+          "use_for": "Long context tasks (262K), general purpose",
+          "priority": 2
+        },
+        {
+          "id": "qwen/qwen3-coder:free",
+          "provider": "qwen",
+          "use_for": "Coding tasks, 262K context",
+          "priority": 3
+        }
+      ],
+      "trigger_keywords": [
+        "status", "check", "list", "ls", "count", "heartbeat",
+        "idle", "verify", "simple", "quick", "basic"
+      ],
+      "max_tokens_estimate": 500,
+      "description": "Status checks, file listings, heartbeats, simple verification"
+    },
+    
+    "L2_EFFICIENT": {
+      "name": "Ultra Cheap",
+      "cost_per_1m_tokens": "$0.05 - $0.50",
+      "models": [
+        {
+          "id": "qwen/qwen3.5-9b",
+          "provider": "qwen",
+          "cost_input": "$0.05/m",
+          "cost_output": "$0.15/m",
+          "context": "256K",
+          "use_for": "Cheapest option for small tasks, fast"
+        },
+        {
+          "id": "qwen/qwen3.5-flash-02-23",
+          "provider": "qwen",
+          "cost_input": "$0.065/m",
+          "cost_output": "$0.26/m",
+          "context": "1M",
+          "use_for": "Best value - 1M context, very cheap"
+        },
+        {
+          "id": "mistralai/mistral-small-2603",
+          "provider": "mistral",
+          "cost_input": "$0.15/m",
+          "cost_output": "$0.60/m",
+          "context": "262K",
+          "use_for": "Coding, vision tasks, multimodal"
+        }
+      ],
+      "trigger_keywords": [
+        "write", "create", "generate", "script", "code", "fetch",
+        "install", "setup", "config", "simple script", "basic code"
+      ],
+      "max_tokens_estimate": 2000,
+      "description": "Simple coding, scripting, web fetching, basic content generation"
+    },
+    
+    "L3_CAPABLE": {
+      "name": "Mid-Tier Value",
+      "cost_per_1m_tokens": "$0.50 - $3.00",
+      "models": [
+        {
+          "id": "google/gemini-3.1-flash-lite-preview",
+          "provider": "google",
+          "cost_input": "$0.25/m",
+          "cost_output": "$1.50/m",
+          "context": "1M",
+          "use_for": "Jordan's preferred mid-tier, 1M context, great value",
+          "note": "Half the cost of Gemini 3 Flash, 1M context"
+        },
+        {
+          "id": "z-ai/glm-5-turbo",
+          "provider": "z-ai",
+          "cost_input": "$0.96/m",
+          "cost_output": "$3.20/m",
+          "context": "200K",
+          "use_for": "Agent workflows, optimized for OpenClaw"
+        },
+        {
+          "id": "bytedance-seed/seed-2.0-lite",
+          "provider": "bytedance",
+          "cost_input": "$0.25/m",
+          "cost_output": "$2.00/m",
+          "context": "262K",
+          "use_for": "Multimodal, fast inference, enterprise grade"
+        }
+      ],
+      "trigger_keywords": [
+        "video script", "content", "youtube", "shorts", "analyze",
+        "research", "summarize", "review", "edit", "improve",
+        "explain", "complex", "reasoning", "strategy"
+      ],
+      "max_tokens_estimate": 5000,
+      "description": "Video scripts, content creation, analysis, research, reasoning"
+    },
+    
+    "L4_KIMI": {
+      "name": "Premium (Kimi)",
+      "cost_per_1m_tokens": "$3.00 - $10.00",
+      "models": [
+        {
+          "id": "openrouter/moonshotai/kimi-k2.5",
+          "provider": "moonshotai",
+          "cost_input": "~$3.00/m",
+          "cost_output": "~$12.00/m",
+          "context": "256K",
+          "use_for": "Jordan's trusted premium model",
+          "note": "Fallback when others fail or for critical tasks"
+        }
+      ],
+      "trigger_keywords": [
+        "debug", "fix", "error", "critical", "complex debug",
+        "architect", "design", "refactor", "optimize", "important",
+        "business", "revenue", "money", "strategy", "decision"
+      ],
+      "max_tokens_estimate": 10000,
+      "description": "Debugging, critical fixes, complex architecture, business decisions"
+    }
+  },
+  
+  "blocked_models": [
+    "anthropic/claude-sonnet-4-5",
+    "anthropic/claude-opus-4-6",
+    "openai/gpt-5.4-pro",
+    "openai/gpt-5.4",
+    "openai/gpt-5.3-chat"
+  ],
+  
+  "routing_rules": {
+    "default_tier": "L2_EFFICIENT",
+    "auto_escalate_on_error": true,
+    "max_escalation": "L4_KIMI",
+    "prefer_context_window": true,
+    "cost_aware": true
+  },
+  
+  "task_classification": {
+    "file_operations": "L1_MINIMAL",
+    "status_checks": "L1_MINIMAL",
+    "simple_coding": "L2_EFFICIENT",
+    "web_fetching": "L2_EFFICIENT",
+    "video_scripts": "L3_CAPABLE",
+    "content_creation": "L3_CAPABLE",
+    "research": "L3_CAPABLE",
+    "debugging": "L4_KIMI",
+    "architecture": "L4_KIMI",
+    "business_strategy": "L4_KIMI"
+  }
+}

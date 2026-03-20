@@ -1,0 +1,9 @@
+Your GPS is lying to you. You're not where it says you are.
+
+Most people think GPS just "knows" where you are, like magic. But the truth is wilder.
+
+Your phone calculates your position by talking to satellites 20,000 kilometers away. Each satellite broadcasts the time... and your phone measures how long that signal took to arrive.
+
+Here's the crazy part: those satellites are moving so fast, and gravity is so much weaker up there, that time literally flows differently for them. Without Einstein's relativity calculations, your GPS would drift by 10 kilometers every single day.
+
+So no, your GPS isn't psychic. It's just really good at math... and space-time physics.

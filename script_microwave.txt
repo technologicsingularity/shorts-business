@@ -1,0 +1,11 @@
+Your microwave isn't heating your food. It's doing something far stranger.
+
+Most people think microwaves heat food from the inside out. That's completely wrong.
+
+Here's the hidden mechanism: microwaves are tuned to 2.4 gigahertz—the exact frequency that makes water molecules flip 2.4 billion times per second. This vibration creates friction, and friction creates heat.
+
+But here's the surprising part: microwaves only penetrate about an inch into your food. The rest spreads through conduction, just like a regular oven. That's why your hot pocket is lava outside, ice inside.
+
+That 2.4 gigahertz frequency? It's the same band your Wi-Fi uses—which is why your internet dies when someone microwaves popcorn.
+
+Now you know how it actually works.

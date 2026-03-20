@@ -1,0 +1,123 @@
+#!/bin/bash
+# Alita Model Router CLI
+# Quick commands for manual model switching
+
+SCRIPT_DIR="/data/.openclaw/workspace"
+ROUTER="$SCRIPT_DIR/model_router.py"
+
+show_help() {
+    cat << EOF
+🎯 Alita Model Router - Smart Model Switching
+
+Usage: router <command> [args]
+
+Commands:
+  status              Show current model and tier info
+  route "<task>"      Show which model would be used for task
+  l1                  Force L1 (Free) tier - status checks, listings
+  l2                  Force L2 (Cheap) tier - scripting, coding
+  l3                  Force L3 (Mid) tier - content, scripts, Gemini 3.1
+  l4                  Force L4 (Premium) tier - debug, critical (Kimi)
+  auto                Return to automatic tier selection
+  compare             Show cost comparison of all tiers
+  help                Show this help
+
+Examples:
+  router route "create youtube shorts script"
+  router l3           # Force Gemini 3.1 for next conversation
+  router status       # Check current configuration
+
+EOF
+}
+
+show_status() {
+    echo "🎯 Alita Model Router Status"
+    echo "============================"
+    python3 "$ROUTER" "status check" 2>/dev/null | head -10
+    echo ""
+    echo "💰 Cost Tiers:"
+    echo "  L1 (Free):     \$0.00/M  - openrouter/free, nemotron:free"
+    echo "  L2 (Cheap):    \$0.10/M  - qwen3.5-9b, qwen3.5-flash"
+    echo "  L3 (Mid):      \$0.88/M  - gemini-3.1-flash-lite ⭐"
+    echo "  L4 (Premium):  \$7.50/M  - kimi-k2.5 (debug only)"
+    echo ""
+    echo "🚫 Blocked: Sonnet, Opus 4.6, GPT-5.4 Pro"
+}
+
+show_comparison() {
+    echo "📊 Model Cost Comparison (per 1M tokens)"
+    echo "========================================"
+    echo ""
+    echo "L1 - FREE TIER:"
+    echo "  openrouter/free                        \$0.00"
+    echo "  nvidia/nemotron-3-super:free           \$0.00"
+    echo "  qwen/qwen3-coder:free                  \$0.00"
+    echo ""
+    echo "L2 - ULTRA CHEAP:"
+    echo "  qwen/qwen3.5-9b                        \$0.10"
+    echo "  qwen/qwen3.5-flash-02-23               \$0.16  ← Best value, 1M context"
+    echo "  mistralai/mistral-small-2603           \$0.38"
+    echo ""
+    echo "L3 - MID TIER (Jordan's sweet spot):"
+    echo "  google/gemini-3.1-flash-lite-preview   \$0.88  ← 1M context, fast"
+    echo "  bytedance-seed/seed-2.0-lite           \$1.13"
+    echo "  z-ai/glm-5-turbo                       \$2.08"
+    echo ""
+    echo "L4 - PREMIUM (Kimi):"
+    echo "  openrouter/moonshotai/kimi-k2.5        \$7.50  ← Trusted, debug only"
+    echo ""
+    echo "❌ BLOCKED (Too Expensive):"
+    echo "  anthropic/claude-opus-4.6              \$30.00"
+    echo "  anthropic/claude-sonnet-4.5            \$3.00+"
+    echo "  openai/gpt-5.4-pro                     \$198.00"
+    echo "  openai/gpt-5.4                         \$17.50"
+}
+
+case "${1:-status}" in
+    status)
+        show_status
+        ;;
+    route)
+        shift
+        python3 "$ROUTER" "$@"
+        ;;
+    l1|free)
+        echo "🔧 Switching to L1 (Free) tier..."
+        freeride switch openrouter/free
+        openclaw gateway restart
+        ;;
+    l2|cheap)
+        echo "🔧 Switching to L2 (Cheap) tier..."
+        freeride switch qwen/qwen3.5-flash-02-23
+        openclaw gateway restart
+        ;;
+    l3|mid|gemini)
+        echo "🔧 Switching to L3 (Mid) tier - Gemini 3.1 Flash Lite..."
+        cd /data/.openclaw/workspace/skills/free-ride
+        ./venv/bin/freeride switch google/gemini-3.1-flash-lite-preview
+        openclaw gateway restart
+        ;;
+    l4|premium|kimi)
+        echo "🔧 Switching to L4 (Premium) tier - Kimi K2.5..."
+        cd /data/.openclaw/workspace/skills/free-ride
+        ./venv/bin/freeride switch openrouter/moonshotai/kimi-k2.5
+        openclaw gateway restart
+        ;;
+    auto)
+        echo "🔧 Returning to automatic tier selection..."
+        cd /data/.openclaw/workspace/skills/free-ride
+        ./venv/bin/freeride auto
+        openclaw gateway restart
+        ;;
+    compare|costs)
+        show_comparison
+        ;;
+    help|--help|-h)
+        show_help
+        ;;
+    *)
+        echo "Unknown command: $1"
+        echo "Run 'router help' for usage"
+        exit 1
+        ;;
+esac

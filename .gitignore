@@ -1,0 +1,52 @@
+# Large media files - don't commit these to git
+*.mp4
+*.mp3
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.wav
+*.mov
+*.avi
+*.opus
+
+# Large data/results files
+yolo-cup/results/*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Secrets and tokens
+*.pickle
+client_secrets.json
+token.json
+*.key
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.log
+
+# ClawHub/OpenClaw internal
+.clawhub/
+.openclaw/

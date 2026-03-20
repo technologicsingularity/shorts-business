@@ -1,0 +1,12 @@
+[
+  {
+    "task": "Send tech packs to Chris Nie at Hucai Sportswear",
+    "recipient": "sales07@hcsportswear.com",
+    "recipient_name": "Chris Nie",
+    "company": "Dongguan Hucai Sportswear",
+    "context": "Factory confirmed they can manufacture shorts. Waiting for tech pack designs to provide quote for 500-1000 units.",
+    "created_date": "2026-03-19",
+    "priority": "HIGH",
+    "status": "pending"
+  }
+]

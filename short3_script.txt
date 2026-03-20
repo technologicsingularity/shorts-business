@@ -1,0 +1,9 @@
+Wi-Fi seems like magic. Invisible internet floating through your house. But it's not magic—it's physics, and it's actually quite simple.
+
+Your Wi-Fi router is a tiny radio station. It takes your data and converts it into radio waves, just like the music on your car radio. These waves travel at the speed of light, bouncing around your walls, furniture, even your body.
+
+But here's the catch: Wi-Fi uses a much higher frequency than regular radio—2.4 or 5 gigahertz. Higher frequency means more data can fit in each wave, but the waves are smaller and weaker. They can't penetrate thick walls well, which is why your signal dies in the bathroom three rooms away.
+
+Your phone or laptop has a tiny antenna that catches these waves and converts them back into the data you see—videos, messages, memes. The whole conversation happens millions of times per second, completely invisible, completely silent.
+
+So the next time your Wi-Fi lags? Blame physics. The waves are trying their best—they're just doing what waves do.

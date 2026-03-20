@@ -1,0 +1,11 @@
+Title: How Touchscreens Actually Work (It's Not What You Touch)
+
+Every time you tap your phone, something invisible happens. Your finger never actually touches the screen—not really.
+
+Your screen has a grid of transparent electrodes, thinner than a human hair, embedded in glass. When your finger gets close—within a few millimeters—it changes the electrical field at that exact spot.
+
+The phone detects this disturbance at multiple points and calculates exactly where your finger is. All of this happens in milliseconds, thousands of times per second.
+
+But here's the wild part: it works through your skin's conductivity. That means gloves block it, unless they're specially designed. The screen is literally reading your body's electrical signature.
+
+So next time you scroll, remember—you're not touching technology. You're conducting electricity through glass, and your phone is watching the invisible field you create. That's how touchscreens actually work.

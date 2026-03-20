@@ -1,0 +1,13 @@
+How QR Codes Actually Work (30% Can Be Destroyed)
+
+Did you know a QR code can have 30% of it destroyed and still work perfectly? That logo in the center? It's covering actual data. Yet your phone reads it instantly. Here's the secret.
+
+QR stands for Quick Response. Those three squares in the corners? Position markers. Your phone uses them to figure out which way is up, even if you rotate the code.
+
+The black and white pattern? That's binary data — ones and zeros. But here's where it gets wild. QR codes use something called Reed-Solomon error correction. It's the same technology used on CDs and spacecraft.
+
+The code actually contains extra data — redundant information spread throughout. So if part gets smudged, scratched, or covered by a logo, the missing data can be mathematically reconstructed from what's left.
+
+There are four levels. Level L handles 7% damage. Level M handles 15%. Level Q handles 25%. And Level H? A whopping 30% of the code can be destroyed and your phone still reads it.
+
+That logo in the center is basically vandalism that the code is designed to survive. Pretty clever, right?

@@ -1,0 +1,28 @@
+{
+  "default_tags": [
+    "howitworks",
+    "didyouknow",
+    "learnontiktok",
+    "edutok",
+    "science",
+    "technology",
+    "interestingfacts",
+    "facts"
+  ],
+  "topic_tags": {
+    "battery": ["battery", "iphone", "tech", "phonebattery", "plannedobsolescence"],
+    "fiber": ["fiberoptic", "internet", "wifi", "cables", "technology"],
+    "ground_pin": ["electricity", "safety", "homeimprovement", "electrical", "diy"],
+    "airplane": ["airplane", "aviation", "flying", "travel", "pilot"],
+    "speakers": ["audio", "sound", "music", "speakers", "physics"],
+    "smoke_detector": ["safety", "fire", "home", "radioactive", "science"],
+    "camera": ["camera", "photography", "shuttersound", "iphone", "photo"],
+    "refrigerator": ["refrigerator", "kitchen", "physics", "home", "science"],
+    "microwave": ["microwave", "kitchen", "cooking", "radiation", "physics"],
+    "keys": ["locks", "security", "keys", "howitworks", "mechanism"],
+    "gps": ["gps", "satellite", "navigation", "space", "location"]
+  },
+  "description_template": "{hook}\n\nFollow for more interesting facts!\n\n#Shorts #YouTubeShorts {hashtags}",
+  "max_tags": 15,
+  "hashtag_style": "camelcase"
+}
