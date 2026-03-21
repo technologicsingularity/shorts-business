@@ -7,19 +7,19 @@
       "category": "politics",
       "bet_type": "YES",
       "entry_price": 0.439,
-      "current_price": 0.98,
+      "current_price": 0.99,
       "size_percent": 3.0,
       "amount": 300.0,
       "thesis": "Moderate odds (43.9%), approval likely in this range based on recent stability",
       "strategy": "value",
       "opened_at": "2026-03-16T20:13:00.598223",
       "status": "open",
-      "last_price_update": "2026-03-21T00:04:35.401795",
+      "last_price_update": "2026-03-21T00:05:37.507607",
       "market_data": {
-        "volume": "20932.483720999997",
-        "liquidity": "1189.21301",
-        "spread": 0.034,
-        "updated_at": "2026-03-21T04:01:54.984304Z"
+        "volume": "20937.483720999997",
+        "liquidity": "1320.80329",
+        "spread": 0.014,
+        "updated_at": "2026-03-21T04:05:24.088011Z"
       }
     },
     {
@@ -36,7 +36,7 @@
       "strategy": "fade",
       "opened_at": "2026-03-16T20:43:09.745168",
       "status": "open",
-      "last_price_update": "2026-03-21T00:04:40.434563",
+      "last_price_update": "2026-03-21T00:05:42.531201",
       "market_data": {
         "volume": "1401500.9965590015",
         "liquidity": "135163.41583",
@@ -58,7 +58,7 @@
       "strategy": "fade",
       "opened_at": "2026-03-16T20:51:29.629079",
       "status": "open",
-      "last_price_update": "2026-03-21T00:04:45.464355",
+      "last_price_update": "2026-03-21T00:05:47.556844",
       "market_data": {
         "volume": "1401500.9965590015",
         "liquidity": "135163.41583",
@@ -110,7 +110,7 @@
       "strategy": "fade",
       "opened_at": "2026-03-18T09:10:44.100408",
       "status": "open",
-      "last_price_update": "2026-03-21T00:05:00.578434",
+      "last_price_update": "2026-03-21T00:06:02.652638",
       "market_data": {
         "volume": "786269.5309169987",
         "liquidity": "79018.9378",
@@ -132,7 +132,7 @@
       "strategy": "fade",
       "opened_at": "2026-03-18T09:10:44.296331",
       "status": "open",
-      "last_price_update": "2026-03-21T00:05:05.621009",
+      "last_price_update": "2026-03-21T00:06:07.679636",
       "market_data": {
         "volume": "619184.2533209987",
         "liquidity": "88724.83657",
@@ -154,7 +154,7 @@
       "strategy": "fade",
       "opened_at": "2026-03-18T09:10:44.510087",
       "status": "open",
-      "last_price_update": "2026-03-21T00:05:10.740410",
+      "last_price_update": "2026-03-21T00:06:12.707520",
       "market_data": {
         "volume": "3336059.2653539777",
         "liquidity": "256406.75556",
@@ -419,6 +419,11 @@
         "timestamp": "2026-03-21T00:04:35.401818",
         "price": 0.98,
         "entry_price": 0.439
+      },
+      {
+        "timestamp": "2026-03-21T00:05:37.507629",
+        "price": 0.99,
+        "entry_price": 0.439
       }
     ],
     "2": [
@@ -569,6 +574,11 @@
       },
       {
         "timestamp": "2026-03-21T00:04:40.434582",
+        "price": 0.002,
+        "entry_price": 0.003
+      },
+      {
+        "timestamp": "2026-03-21T00:05:42.531219",
         "price": 0.002,
         "entry_price": 0.003
       }
@@ -723,6 +733,11 @@
         "timestamp": "2026-03-21T00:04:45.464376",
         "price": 0.002,
         "entry_price": 0.003
+      },
+      {
+        "timestamp": "2026-03-21T00:05:47.556860",
+        "price": 0.002,
+        "entry_price": 0.003
       }
     ],
     "6": [
@@ -828,6 +843,11 @@
       },
       {
         "timestamp": "2026-03-21T00:05:00.578455",
+        "price": 0.0945,
+        "entry_price": 0.095
+      },
+      {
+        "timestamp": "2026-03-21T00:06:02.652661",
         "price": 0.0945,
         "entry_price": 0.095
       }
@@ -937,6 +957,11 @@
         "timestamp": "2026-03-21T00:05:05.621026",
         "price": 0.0345,
         "entry_price": 0.03
+      },
+      {
+        "timestamp": "2026-03-21T00:06:07.679655",
+        "price": 0.0345,
+        "entry_price": 0.03
       }
     ],
     "8": [
@@ -1042,6 +1067,11 @@
       },
       {
         "timestamp": "2026-03-21T00:05:10.740428",
+        "price": 0.021,
+        "entry_price": 0.021
+      },
+      {
+        "timestamp": "2026-03-21T00:06:12.707539",
         "price": 0.021,
         "entry_price": 0.021
       }
