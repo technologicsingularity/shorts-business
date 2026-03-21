@@ -14,7 +14,7 @@
       "strategy": "value",
       "opened_at": "2026-03-16T20:13:00.598223",
       "status": "open",
-      "last_price_update": "2026-03-21T16:02:35.468572",
+      "last_price_update": "2026-03-21T16:03:18.759508",
       "market_data": {
         "volume": "31215.840960999998",
         "liquidity": 0,
@@ -36,7 +36,7 @@
       "strategy": "fade",
       "opened_at": "2026-03-16T20:43:09.745168",
       "status": "open",
-      "last_price_update": "2026-03-21T16:02:40.519117",
+      "last_price_update": "2026-03-21T16:03:23.789557",
       "market_data": {
         "volume": "1404693.9065590017",
         "liquidity": "132709.48486",
@@ -58,7 +58,7 @@
       "strategy": "fade",
       "opened_at": "2026-03-16T20:51:29.629079",
       "status": "open",
-      "last_price_update": "2026-03-21T16:02:45.548921",
+      "last_price_update": "2026-03-21T16:03:28.819047",
       "market_data": {
         "volume": "1404693.9065590017",
         "liquidity": "132709.48486",
@@ -110,7 +110,7 @@
       "strategy": "fade",
       "opened_at": "2026-03-18T09:10:44.100408",
       "status": "open",
-      "last_price_update": "2026-03-21T16:03:00.886135",
+      "last_price_update": "2026-03-21T16:03:43.922143",
       "market_data": {
         "volume": "791718.6135219985",
         "liquidity": "80132.09061",
@@ -132,12 +132,12 @@
       "strategy": "fade",
       "opened_at": "2026-03-18T09:10:44.296331",
       "status": "open",
-      "last_price_update": "2026-03-21T16:03:05.933807",
+      "last_price_update": "2026-03-21T16:03:48.968722",
       "market_data": {
         "volume": "624870.0319779984",
-        "liquidity": "94932.50706",
+        "liquidity": "90634.86038",
         "spread": 0.002,
-        "updated_at": "2026-03-21T19:58:15.539852Z"
+        "updated_at": "2026-03-21T20:02:11.227642Z"
       }
     },
     {
@@ -154,7 +154,7 @@
       "strategy": "fade",
       "opened_at": "2026-03-18T09:10:44.510087",
       "status": "open",
-      "last_price_update": "2026-03-21T16:03:10.980539",
+      "last_price_update": "2026-03-21T16:03:53.999213",
       "market_data": {
         "volume": "3358505.3868679795",
         "liquidity": "254234.36201",
@@ -451,7 +451,7 @@
         "entry_price": 0.439
       },
       {
-        "timestamp": "2026-03-21T16:02:35.468605",
+        "timestamp": "2026-03-21T16:03:18.759527",
         "price": 1.0,
         "entry_price": 0.439
       }
@@ -638,7 +638,7 @@
         "entry_price": 0.003
       },
       {
-        "timestamp": "2026-03-21T16:02:40.519139",
+        "timestamp": "2026-03-21T16:03:23.789592",
         "price": 0.0025,
         "entry_price": 0.003
       }
@@ -825,7 +825,7 @@
         "entry_price": 0.003
       },
       {
-        "timestamp": "2026-03-21T16:02:45.548943",
+        "timestamp": "2026-03-21T16:03:28.819070",
         "price": 0.0025,
         "entry_price": 0.003
       }
@@ -967,7 +967,7 @@
         "entry_price": 0.095
       },
       {
-        "timestamp": "2026-03-21T16:03:00.886156",
+        "timestamp": "2026-03-21T16:03:43.922164",
         "price": 0.0885,
         "entry_price": 0.095
       }
@@ -1109,7 +1109,7 @@
         "entry_price": 0.03
       },
       {
-        "timestamp": "2026-03-21T16:03:05.933826",
+        "timestamp": "2026-03-21T16:03:48.968742",
         "price": 0.026,
         "entry_price": 0.03
       }
@@ -1251,7 +1251,7 @@
         "entry_price": 0.021
       },
       {
-        "timestamp": "2026-03-21T16:03:10.980559",
+        "timestamp": "2026-03-21T16:03:53.999256",
         "price": 0.0205,
         "entry_price": 0.021
       }
