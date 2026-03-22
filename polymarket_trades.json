@@ -14,12 +14,12 @@
       "strategy": "value",
       "opened_at": "2026-03-16T20:13:00.598223",
       "status": "open",
-      "last_price_update": "2026-03-22T08:05:17.078212",
+      "last_price_update": "2026-03-22T12:02:49.583726",
       "market_data": {
-        "volume": "31215.840960999998",
+        "volume": 0,
         "liquidity": 0,
         "spread": 0.001,
-        "updated_at": "2026-03-22T12:03:56.647316Z"
+        "updated_at": "2026-03-22T13:15:55.503375Z"
       }
     },
     {
@@ -36,12 +36,12 @@
       "strategy": "fade",
       "opened_at": "2026-03-16T20:43:09.745168",
       "status": "open",
-      "last_price_update": "2026-03-22T08:05:22.105569",
+      "last_price_update": "2026-03-22T12:02:54.632228",
       "market_data": {
-        "volume": "1431352.2856940017",
-        "liquidity": "111859.35073",
+        "volume": "1436041.6446940019",
+        "liquidity": "133774.90851",
         "spread": 0.001,
-        "updated_at": "2026-03-22T12:01:43.765077Z"
+        "updated_at": "2026-03-22T16:02:06.738642Z"
       }
     },
     {
@@ -58,12 +58,12 @@
       "strategy": "fade",
       "opened_at": "2026-03-16T20:51:29.629079",
       "status": "open",
-      "last_price_update": "2026-03-22T08:05:27.137597",
+      "last_price_update": "2026-03-22T12:02:59.665444",
       "market_data": {
-        "volume": "1431352.2856940017",
-        "liquidity": "111859.35073",
+        "volume": "1436041.6446940019",
+        "liquidity": "133774.90851",
         "spread": 0.001,
-        "updated_at": "2026-03-22T12:01:43.765077Z"
+        "updated_at": "2026-03-22T16:02:06.738642Z"
       }
     },
     {
@@ -110,12 +110,12 @@
       "strategy": "fade",
       "opened_at": "2026-03-18T09:10:44.100408",
       "status": "open",
-      "last_price_update": "2026-03-22T08:05:42.213426",
+      "last_price_update": "2026-03-22T12:03:15.007493",
       "market_data": {
-        "volume": "794479.0828559987",
-        "liquidity": "81427.2018",
+        "volume": "796627.4804419987",
+        "liquidity": "80709.78005",
         "spread": 0.001,
-        "updated_at": "2026-03-22T12:03:35.076128Z"
+        "updated_at": "2026-03-22T16:01:34.413816Z"
       }
     },
     {
@@ -125,19 +125,19 @@
       "category": "sports",
       "bet_type": "YES",
       "entry_price": 0.03,
-      "current_price": 0.0475,
+      "current_price": 0.0335,
       "size_percent": 2.0,
       "amount": 172.685672796,
       "thesis": "Fade the Extreme: 97% NO pricing is certainty overreach. 3% for YES offers convexity. NHL parity means any playoff team has shot.",
       "strategy": "fade",
       "opened_at": "2026-03-18T09:10:44.296331",
       "status": "open",
-      "last_price_update": "2026-03-22T08:05:47.240492",
+      "last_price_update": "2026-03-22T12:03:20.147630",
       "market_data": {
-        "volume": "632890.9564309986",
-        "liquidity": "91983.41968",
+        "volume": "633263.1047329985",
+        "liquidity": "95383.23759",
         "spread": 0.003,
-        "updated_at": "2026-03-22T12:03:25.493722Z"
+        "updated_at": "2026-03-22T16:01:51.216432Z"
       }
     },
     {
@@ -147,19 +147,19 @@
       "category": "sports",
       "bet_type": "YES",
       "entry_price": 0.021,
-      "current_price": 0.022,
+      "current_price": 0.0235,
       "size_percent": 2.5,
       "amount": 211.5399491751,
       "thesis": "Fade the Extreme: 97.9% NO implies Rockets have no chance. Young talented roster could surprise. 2.1% is mispriced.",
       "strategy": "fade",
       "opened_at": "2026-03-18T09:10:44.510087",
       "status": "open",
-      "last_price_update": "2026-03-22T08:05:52.271121",
+      "last_price_update": "2026-03-22T12:03:25.198218",
       "market_data": {
-        "volume": "3375075.028544982",
-        "liquidity": "247552.51727",
-        "spread": 0.002,
-        "updated_at": "2026-03-22T12:03:23.315241Z"
+        "volume": "3376625.568544982",
+        "liquidity": "254747.64021",
+        "spread": 0.001,
+        "updated_at": "2026-03-22T15:59:33.261101Z"
       }
     },
     {
@@ -479,6 +479,11 @@
         "timestamp": "2026-03-22T08:05:17.078260",
         "price": 1.0,
         "entry_price": 0.439
+      },
+      {
+        "timestamp": "2026-03-22T12:02:49.583748",
+        "price": 1.0,
+        "entry_price": 0.439
       }
     ],
     "2": [
@@ -689,6 +694,11 @@
       },
       {
         "timestamp": "2026-03-22T08:05:22.105589",
+        "price": 0.0035,
+        "entry_price": 0.003
+      },
+      {
+        "timestamp": "2026-03-22T12:02:54.632266",
         "price": 0.0035,
         "entry_price": 0.003
       }
@@ -903,6 +913,11 @@
         "timestamp": "2026-03-22T08:05:27.137615",
         "price": 0.0035,
         "entry_price": 0.003
+      },
+      {
+        "timestamp": "2026-03-22T12:02:59.665459",
+        "price": 0.0035,
+        "entry_price": 0.003
       }
     ],
     "6": [
@@ -1068,6 +1083,11 @@
       },
       {
         "timestamp": "2026-03-22T08:05:42.213449",
+        "price": 0.0775,
+        "entry_price": 0.095
+      },
+      {
+        "timestamp": "2026-03-22T12:03:15.007513",
         "price": 0.0775,
         "entry_price": 0.095
       }
@@ -1237,6 +1257,11 @@
         "timestamp": "2026-03-22T08:05:47.240505",
         "price": 0.0475,
         "entry_price": 0.03
+      },
+      {
+        "timestamp": "2026-03-22T12:03:20.147647",
+        "price": 0.0335,
+        "entry_price": 0.03
       }
     ],
     "8": [
@@ -1403,6 +1428,11 @@
       {
         "timestamp": "2026-03-22T08:05:52.271139",
         "price": 0.022,
+        "entry_price": 0.021
+      },
+      {
+        "timestamp": "2026-03-22T12:03:25.198235",
+        "price": 0.0235,
         "entry_price": 0.021
       }
     ]
