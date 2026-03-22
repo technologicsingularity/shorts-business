@@ -14,7 +14,7 @@
       "strategy": "value",
       "opened_at": "2026-03-16T20:13:00.598223",
       "status": "open",
-      "last_price_update": "2026-03-22T08:05:03.460698",
+      "last_price_update": "2026-03-22T08:05:17.078212",
       "market_data": {
         "volume": "31215.840960999998",
         "liquidity": 0,
@@ -36,7 +36,7 @@
       "strategy": "fade",
       "opened_at": "2026-03-16T20:43:09.745168",
       "status": "open",
-      "last_price_update": "2026-03-22T08:05:08.487570",
+      "last_price_update": "2026-03-22T08:05:22.105569",
       "market_data": {
         "volume": "1431352.2856940017",
         "liquidity": "111859.35073",
@@ -58,7 +58,7 @@
       "strategy": "fade",
       "opened_at": "2026-03-16T20:51:29.629079",
       "status": "open",
-      "last_price_update": "2026-03-22T08:05:13.515531",
+      "last_price_update": "2026-03-22T08:05:27.137597",
       "market_data": {
         "volume": "1431352.2856940017",
         "liquidity": "111859.35073",
@@ -110,7 +110,7 @@
       "strategy": "fade",
       "opened_at": "2026-03-18T09:10:44.100408",
       "status": "open",
-      "last_price_update": "2026-03-22T08:05:28.626706",
+      "last_price_update": "2026-03-22T08:05:42.213426",
       "market_data": {
         "volume": "794479.0828559987",
         "liquidity": "81427.2018",
@@ -132,7 +132,7 @@
       "strategy": "fade",
       "opened_at": "2026-03-18T09:10:44.296331",
       "status": "open",
-      "last_price_update": "2026-03-22T08:05:33.761130",
+      "last_price_update": "2026-03-22T08:05:47.240492",
       "market_data": {
         "volume": "632890.9564309986",
         "liquidity": "91983.41968",
@@ -154,7 +154,7 @@
       "strategy": "fade",
       "opened_at": "2026-03-18T09:10:44.510087",
       "status": "open",
-      "last_price_update": "2026-03-22T08:05:38.807078",
+      "last_price_update": "2026-03-22T08:05:52.271121",
       "market_data": {
         "volume": "3375075.028544982",
         "liquidity": "247552.51727",
@@ -476,7 +476,7 @@
         "entry_price": 0.439
       },
       {
-        "timestamp": "2026-03-22T08:05:03.460722",
+        "timestamp": "2026-03-22T08:05:17.078260",
         "price": 1.0,
         "entry_price": 0.439
       }
@@ -688,7 +688,7 @@
         "entry_price": 0.003
       },
       {
-        "timestamp": "2026-03-22T08:05:08.487587",
+        "timestamp": "2026-03-22T08:05:22.105589",
         "price": 0.0035,
         "entry_price": 0.003
       }
@@ -900,7 +900,7 @@
         "entry_price": 0.003
       },
       {
-        "timestamp": "2026-03-22T08:05:13.515551",
+        "timestamp": "2026-03-22T08:05:27.137615",
         "price": 0.0035,
         "entry_price": 0.003
       }
@@ -1067,7 +1067,7 @@
         "entry_price": 0.095
       },
       {
-        "timestamp": "2026-03-22T08:05:28.626722",
+        "timestamp": "2026-03-22T08:05:42.213449",
         "price": 0.0775,
         "entry_price": 0.095
       }
@@ -1234,7 +1234,7 @@
         "entry_price": 0.03
       },
       {
-        "timestamp": "2026-03-22T08:05:33.761146",
+        "timestamp": "2026-03-22T08:05:47.240505",
         "price": 0.0475,
         "entry_price": 0.03
       }
@@ -1401,7 +1401,7 @@
         "entry_price": 0.021
       },
       {
-        "timestamp": "2026-03-22T08:05:38.807099",
+        "timestamp": "2026-03-22T08:05:52.271139",
         "price": 0.022,
         "entry_price": 0.021
       }
